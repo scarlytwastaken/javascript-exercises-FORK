@@ -1,4 +1,5 @@
 const sumAll = function(first,second) {
+    
     let firstInt = first;
     let secondInt = second;
     let sumOfAll = firstInt;
@@ -11,7 +12,6 @@ const sumAll = function(first,second) {
         while (firstInt < secondInt) {
             firstInt += 1;
             sumOfAll += firstInt;
-            console.log(sumOfAll);
         }
     }
 
@@ -19,10 +19,8 @@ const sumAll = function(first,second) {
         while (firstInt > secondInt) {
             firstInt -= 1;
             sumOfAll += firstInt;
-            console.log(sumOfAll);
         }
     }
-
 
     return sumOfAll
     
